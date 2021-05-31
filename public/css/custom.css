@@ -1,0 +1,87 @@
+body{
+  direction: rtl;
+}
+.alert-danger , .alert-success{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top:10px;
+}
+.card-title{
+  width: 95%;
+}
+.fa-search{
+  margin-left: 5px;
+}
+.add_btn{
+  margin-bottom: 10px;
+}
+.form-inline{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media (min-width: 576px)
+{
+  .form-inline .form-group {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 0;
+  }
+  .form-inline label {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+
+}
+.form-inline .form-control , .form-control
+{
+  border:none;
+  border-bottom: 1px solid #000;
+}
+.search_area{
+  border: 2px solid black;
+  padding: 5px;
+}
+.row_t{
+  margin-bottom: 10px;
+}
+.form-control-label{
+  margin-top: 14px;
+}
+.search_label{
+  margin-top: 20px !important;
+}
+.visit_div .form-control {
+  border: 1px solid rgba(110,117,130,.2) !important;
+}
+.visit_div .row{
+  margin-bottom: 10px;
+}
+table thead tr{
+    background-color: #F4F4F4;
+}
+.dtae_all{
+  margin-bottom: 20px;
+}
+.table-responsive2 {
+    max-height:300px;
+}
